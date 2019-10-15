@@ -1,0 +1,85 @@
+body{
+    padding-top: 80px;
+    font-family: sans-serif;
+    color: white;
+    background-color: #000629;
+    margin: 0;
+}
+
+p{
+    font-size: 16px;
+}
+
+a{
+    color: white;
+}
+
+.copyright{
+    vertical-align: bottom;
+    bottom: 10px;
+    text-align: center;
+}
+
+.maxwidth{
+    max-width: 5000px;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.marginright{
+    margin-right: auto;
+}
+
+.center{
+    text-align: center;
+}
+
+.projectblock{
+    text-align: center;
+}
+
+.projectblock > div{
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 2em;
+    position: static
+}
+
+.navigationbar{
+    display: block;
+    overflow: hidden;
+    background-color: #05004a;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navigationbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+.navigationbar a:hover {
+    background-color: brown;
+    color: white;
+}
+
+.navigationbar a.active {
+    background-color: grey;
+    color: white;
+}
+
+.email{
+    overflow: hidden;
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 20px;
+    margin-right: auto;
+}
