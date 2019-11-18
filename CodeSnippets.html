@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+    <meta name = "author" content = "Spencer Roccapriore">
+    <meta name = "description" content="Spencer Roccapriore's website.">
+    <meta name = "keywords" content="Spencer, Roccapriore, game, develop, programmer, unity, About Me">
+    
+    <title>Spencer Roccapriore | Code Snippets</title>
+    <link rel="stylesheet" href="WebsiteCSS.css">
+</head>
+
+<body>
+    <div class="navigationbar">
+        <a href="Home.html">
+            Home
+        </a>
+        <a href="Projects.html">
+            Projects
+        </a>
+        <a class="active" href="CodeSnippets.html">
+            Code Snippets
+        </a>
+        <a href="AboutMe.html">
+            About Me
+        </a>
+        <a href="https://www.linkedin.com/in/spencer-roccapriore-633935162/" target="_blank">
+            Linkedin
+        </a>
+        <a href="Resume.pdf" target="_blank">
+            Resume
+        </a>
+        <div class="email">
+            Email: spencerroccapriore@gmail.com
+        </div>
+    </div>
+    <div class="center maxwidth">
+        <h2>
+            Code Snippets
+        </h2>
+        <hr>
+        <div class="projectblock">
+            <div>
+                <img src="images/CodeSnippets/CheckForZeros.JPG" alt="Check for zeros code snippet"/>
+            </div>
+            <div>
+                <h4>Check for zeros</h4>
+                This code snippet is for finding if there are any <br> zeros within an array.
+                <br>
+                <br>
+                Here we can see that I used it for a limited inventory.
+                <br>
+                <br>
+                We run a for loop from start to finish as long as there are no zeros.
+                <br>
+                <br>
+                If there are any zeros we break the loop because<br> all we were checking for if there were any zeros to begin with.
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="projectblock">
+            <div>
+                <img src="images/CodeSnippets/lerp.JPG" alt="Understanding lerp code snippet"/>
+            </div>
+            <div>
+                <h4>Lerp</h4>
+                This code snippet is for when I was understanding lerp.
+                <br>
+                <br>
+                Essentially this will make an object go from<br>point A to point B in a linear fashion.
+                <br>
+                <br>
+                In this example I had a plunger object move and not have<br> to check the inner "if" statements if "thrown" was true.
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="projectblock">
+            <div>
+                <img src="images/CodeSnippets/Invincibility.JPG" alt="Invincibility code snippet"/>
+            </div>
+            <div>
+                <h4>Invincibility</h4>
+                This code snippet is for when I was handling invincibility<br> and needed a way to indicate that the player was invincible.
+                <br>
+                <br>
+                For this I used an IEnumerator and had<br>the player's sprite flicker after they got hit by an enemy.
+                <br>
+                <br>
+                This lets the player know that after they got hit they have <br> time to get away before getting hit again. 
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="projectblock">
+            <div>
+                <img src="images/CodeSnippets/UIController.JPG" alt="UI Controller code snippet"/>
+            </div>
+            <div>
+                <h4>UI Controller</h4>
+                This code snippet is for when I needed to display various win conditions,<br> how much money the player had left, and their health.
+                <br>
+                <br>
+                To get the data to correctly display information,<br> I used get and set to gather data from the player.
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="projectblock">
+            <div>
+                <img src="images/CodeSnippets/PickUpItem.JPG" alt="Pick up item code snippet"/>
+            </div>
+            <div>
+                <h4>Pick up item</h4>
+                This code snippet is for when I needed to have the player<br> pick up various items and change the slot<br> in their inventory with the correct data.
+                <br>
+                <br>
+                I first check beforehand if there is any space in the inventory<br>using "Check for zeros" and then place<br> the item in the first empty spot available.
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="projectblock">
+            <div>
+                <img src="images/CodeSnippets/Menu1.JPG" alt="Menu part 1 code snippet"/>
+            </div>
+            <div>
+                <img src="images/CodeSnippets/Menu2.JPG" alt="Menu part 2 code snippet"/>
+            </div>
+            <div>
+                <h4>Menu</h4>
+                This code snippet is for when I needed have a menu <br>in which the player chooses from a set amount of options.<br>
+                <br>
+                I used a switch to handle the position of the highlighter,<br> which hovers over the players current option.
+                <br>
+                <br>
+                Depending on what option is highlighter, the player can<br> then press up or down to change it to the next or previous option.
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="projectblock">
+            <div>
+                <img src="images/CodeSnippets/HardcodedInventory.JPG" alt="Hard coded inventory code snippet"/>
+            </div>
+            <div>
+                <h4>Hard coded inventory</h4>
+                This code snippet is for when I needed to have<br> an inventory to store the players items.
+                <br>
+                <br>
+                This is a hard coded 2 by 4 inventory,<br> however it can be modified easily within the code.
+                <br>
+                <br>
+                This uses a very similar format as the Menu code.<br>The variable "inventoryCursorPos" is checked<br> by an NPC that is looking for a particular item.
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="projectblock">
+            <div>
+                <img src="images/CodeSnippets/CheckDialogueParam.JPG" alt="Check dialogue parameter code snippet"/>
+            </div>
+            <div>
+                <h4>Check the dialogue parameter</h4>
+                This code snippet is for when I needed to change an<br> NPC's dialogue based on what has happened in the game so far.
+                <br>
+                <br>
+                Within this code I also can change the item within the players inventory,<br> swapping it with either a new one or nothing.
+                <br>
+                <br>
+                I also have another variation that can take multiple items.
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="projectblock">
+            <div>
+                <img src="images/CodeSnippets/PatrolNodes1.JPG" alt="Patrol nodes part 1 code snippet"/>
+            </div>
+            <div>
+                <img src="images/CodeSnippets/PatrolNodes2.JPG" alt="Patrol nodes part 2 code snippet"/>
+            </div>
+            <div>
+                <h4>Patrol nodes</h4>
+                This code snippet is for when I needed enemies to<br> walk around in a set pattern going from point A to point B. 
+                <br>
+                <br>
+                Depending on the way the enemy is walking<br>they count the nodes up or down looping back<br> to the beginning and repeating.
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="projectblock">
+            <div>
+                <img src="images/CodeSnippets/ShootMoney1.JPG" alt="Shoot money 1 code snippet"/>
+            </div>
+            <div>
+                <img src="images/CodeSnippets/ShootMoney2.JPG" alt="Shoot money 2 code snippet"/>
+            </div>
+            <div>
+                <h4>Shoot money (bullets) in cardinal directions</h4>
+                This code snippet is for when I needed to let the player<br> shoot money (bullets), count them down and add a delay<br> so they couldn't shoot right away again.
+                <br>
+                <br>
+                Depending on the way the keys pressed the money<br>will shoot a different cardinal direction.
+                <br>
+                <br>
+                I now know how to improve this code,<br> by adding a method to hold the "if" statement<br> that is within the key input statement.<br>Thus, reducing lines and making it easier to read.
+            </div>
+        </div>
+        <div class="projectblock">
+            <div>
+                <img src="images/CodeSnippets/FillList.JPG" alt="Fill list code snippet"/>
+            </div>
+            <div>
+                <h4>Fill list randomly</h4>
+                This code snippet is for when I needed fill two lists,<br>one for strings, one for colors,<br>randomly dependant on the difficulty level.
+                <br>
+                <br>
+                This is for when the player has to choose the correct<br> color in order but not get messed up<br> by the color of the text.
+            </div>
+        </div>
+        <div class="projectblock">
+            <div>
+                <img src="images/CodeSnippets/ChooseColorsCoroutine.JPG" alt="Choose colors coroutine code snippet"/>
+            </div>
+            <div>
+                <h4>Choose color coroutine</h4>
+                This code snippet is for when I needed to wait<br>for the user input of pressing a color button.
+                <br>
+                <br>
+                It loops through a for loop and if the most recently<br>tapped color is correct it continues<br>until there are no colors left.
+                <br>
+                <br>
+                If the user is correct for every color in the round,<br>the score goes up by one, the lists get empty<br>so they can get a new arrangement,<br>and lastly has a 1 in 3 chance of increasing<br>the amount of colors to memorize for the next round. 
+            </div>
+        </div>
+        <div class="projectblock">
+            <div>
+                <img src="images/CodeSnippets/SetBlockColor.JPG" alt="Set color block code snippet"/>
+            </div>
+            <div>
+                <h4>Set color block</h4>
+                This code snippet is for when I need to modify<br>the instantiated color blocks for the player<br>to press depening on the difficulty.
+
+            </div>
+        </div>
+        <br>
+        <hr>
+        <p class="copyright">
+            © 2019 Spencer Roccapriore
+        </p>
+    </div>
+</body>
+</html>
